@@ -1,0 +1,11 @@
+.carousel-arrow {
+  @apply absolute top-1/2 -translate-y-1/2 bg-pink-500 text-white rounded-full shadow-lg p-2 md:p-3 z-20 transition hover:bg-pink-600 focus:outline-none;
+  font-size: 1.5rem;
+  opacity: 0.85;
+}
+.carousel-arrow.left-2 { left: 0.5rem; }
+.carousel-arrow.right-2 { right: 0.5rem; }
+@media (min-width: 768px) {
+  .carousel-arrow.left-2 { left: 1rem; }
+  .carousel-arrow.right-2 { right: 1rem; }
+}
